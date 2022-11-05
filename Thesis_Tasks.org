@@ -6,4 +6,6 @@
 * Dynamic Analysis
 * Writing
 ** TODO Add BEM notes to literature review
-SCHEDULED: <2022-11-05 Sat>
+SCHEDULED: <2022-11-06 Sun>
+** TODO Relocate figures in lyx document for my PC
+SCHEDULED: <2022-11-06 Sun>
