@@ -1,0 +1,9 @@
+#+title: Thesis Task List
+#+author: Mathewos Endeshaw
+
+* Literature Review Tasks
+* Static Analysis
+* Dynamic Analysis
+* Writing
+** TODO Add BEM notes to literature review
+SCHEDULED: <2022-11-05 Sat>
