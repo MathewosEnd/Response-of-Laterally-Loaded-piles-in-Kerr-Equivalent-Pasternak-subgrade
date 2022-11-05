@@ -6,4 +6,4 @@
 * Dynamic Analysis
 * Writing
 ** TODO Add BEM notes to literature review
-SCHEDULED: <2022-11-05 Sat>
+SCHEDULED: <2022-11-06 Sun>
