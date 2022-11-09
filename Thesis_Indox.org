@@ -1,2 +1,23 @@
 #+title: Thesis Inbox
 #+author: Mathewos Endeshaw
+
+* Thesis Questions
+** is requiring a singular solution a characteristic of the indirect approach or does it apply to the direct approach as well?
+
+* Correction to the python automation script
+correct the follwing
+  - createPSet_edge(modelName, partName[1], 'mbaseEdge_3', 0.0, *-pileDia/4.0*, domainDepth)
+  - correct the boundary conditions for *baseEdge_4* and *baseEdge_5* from *YSYMM* to *Fixed*
+  - correct the boundary conditions for *mbaseEdge_4* and *mbaseEdge_5* from *YSYMM* to *Fixed*
+  - *mfrontFace_5* and *mfrontFace_6* apply *YSYMM*
+  - *mfrontEdge_2* apply *YSYMM*
+* Boundary Sensitivity Study
+range of lateral boundary considered are
+
+| model name | boundary distance          |
+|------------+----------------------------|
+|        nil | \(2.0L\)                   |
+|          2 | \(1.0L\)                   |
+|          3 | \(0.5L\)                   |
+|          4 | \(0.25L\)                  |
+|          5 | min 30.0m (used in thesis) |
