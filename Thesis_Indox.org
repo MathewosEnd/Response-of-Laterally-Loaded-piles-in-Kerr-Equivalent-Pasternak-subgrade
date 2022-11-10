@@ -3,6 +3,7 @@
 
 * Thesis Questions
 ** is requiring a singular solution a characteristic of the indirect approach or does it apply to the direct approach as well?
+** could it be possible to create a a worku(2010) variant that accounts for lateral variation of soil and use that in analysis of laterally loaded piles.
 
 * Correction to the python automation script
 correct the follwing

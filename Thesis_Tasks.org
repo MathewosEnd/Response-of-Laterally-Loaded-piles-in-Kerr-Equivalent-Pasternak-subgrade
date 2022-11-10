@@ -12,10 +12,10 @@ SCHEDULED: <2022-11-10 Thu>
 * Writing
 ** DONE Add BEM notes to literature review
 SCHEDULED: <2022-11-09 Wed>
-** TODO Revise the literature review section of synthesis and Worku's work [0/5]
+** TODO Revise the literature review section of synthesis and Worku's work [5/5]
 SCHEDULED: <2022-11-10 Thu 08:00-10:00>
-    - [ ] review other synthesis works
-    - [ ] add notes on how the 2010 model was developed
-    - [ ] add notes on why it is considered general
-    - [ ] review the 2013 and 2014 models
-    - [ ] why is the 2014 model better
+    - [X] review other synthesis works
+    - [X] add notes on how the 2010 model was developed
+    - [X] add notes on why it is considered general
+    - [X] review the 2013 and 2014 models
+    - [X] why is the 2014 model better
