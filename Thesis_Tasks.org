@@ -19,3 +19,7 @@ SCHEDULED: <2022-11-10 Thu 08:00-10:00>
     - [X] add notes on why it is considered general
     - [X] review the 2013 and 2014 models
     - [X] why is the 2014 model better
+** TODO Add radius to Noundsens plot
+SCHEDULED: <2022-11-10 Thu>
+    - add \(r = 0.25\) for \(\frac{L}{r} = 80\) and
+    - add \(r = 0.50\) for \(\frac{L}{r} = 40\)
