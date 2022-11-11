@@ -1,29 +1,6 @@
 #+title: Thesis Tasks
 #+author: Mathewos Endeshaw
 
-* Thesis Questions
-** is requiring a singular solution a characteristic of the indirect approach or does it apply to the direct approach as well?
-** could it be possible to create a a worku(2010) variant that accounts for lateral variation of soil and use that in analysis of laterally loaded piles.
-
-* Correction to the python automation script
-correct the follwing
-  - createPSet_edge(modelName, partName[1], 'mbaseEdge_3', 0.0, *-pileDia/4.0*, domainDepth)
-  - correct the boundary conditions for *baseEdge_4* and *baseEdge_5* from *YSYMM* to *Fixed*
-  - correct the boundary conditions for *mbaseEdge_4* and *mbaseEdge_5* from *YSYMM* to *Fixed*
-  - *mfrontFace_5* and *mfrontFace_6* apply *YSYMM*
-  - *mfrontEdge_2* apply *YSYMM*
-* Boundary Sensitivity Study
-range of lateral boundary considered are
-
-| model name | boundary distance          |
-|------------+----------------------------|
-|        nil | \(2.0L\)                   |
-|          2 | \(1.0L\)                   |
-|          3 | \(0.5L\)                   |
-|          4 | \(0.25L\)                  |
-|          5 | min 30.0m (used in thesis) |
-
-
 * Thesis Tasks
 ** Literature Review
 *** TODO Review Karatzia, Xenia, and George Mylonakis.Horizontal Stiffness and Damping of Piles in Inhomogeneous Soil. Journal of Geotechnical and Geoenvironmental Engineering 143, no. 4 (2017): 04016113. https://doi.org/10.1061/(ASCE)GT.1943-5606.0001621.
@@ -46,3 +23,27 @@ SCHEDULED: <2022-11-10 Thu 08:00-10:00>
 SCHEDULED: <2022-11-10 Thu>
     - add \(r = 0.25\) for \(\frac{L}{r} = 80\) and
     - add \(r = 0.50\) for \(\frac{L}{r} = 40\)
+
+
+* Thesis Questions
+** is requiring a singular solution a characteristic of the indirect approach or does it apply to the direct approach as well?
+** could it be possible to create a a worku(2010) variant that accounts for lateral variation of soil and use that in analysis of laterally loaded piles.
+
+* Correction to the python automation script
+correct the follwing
+  - createPSet_edge(modelName, partName[1], 'mbaseEdge_3', 0.0, *-pileDia/4.0*, domainDepth)
+  - correct the boundary conditions for *baseEdge_4* and *baseEdge_5* from *YSYMM* to *Fixed*
+  - correct the boundary conditions for *mbaseEdge_4* and *mbaseEdge_5* from *YSYMM* to *Fixed*
+  - *mfrontFace_5* and *mfrontFace_6* apply *YSYMM*
+  - *mfrontEdge_2* apply *YSYMM*
+* Boundary Sensitivity Study
+range of lateral boundary considered are
+
+| model name | boundary distance          |
+|------------+----------------------------|
+|        nil | \(2.0L\)                   |
+|          2 | \(1.0L\)                   |
+|          3 | \(0.5L\)                   |
+|          4 | \(0.25L\)                  |
+|          5 | min 30.0m (used in thesis) |
+
