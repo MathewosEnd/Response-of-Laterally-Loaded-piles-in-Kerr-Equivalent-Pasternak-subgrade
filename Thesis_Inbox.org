@@ -1,4 +1,4 @@
-#+title: Thesis Tasks
+#+title: Inbox
 #+author: Mathewos Endeshaw
 
 * Thesis Tasks
