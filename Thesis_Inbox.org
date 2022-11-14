@@ -8,9 +8,9 @@ SCHEDULED: <2022-11-15 Tue>
 ** Static Analysis
 *** DONE Conduct FEM analysis for LIMod FHFB \(\eta = 0.5\) and \(\eta = 1.0\)
 SCHEDULED: <2022-11-10 Thu>
-*** TODO Validate FEM results for LIMod FHFB \( eta = 1.0\)[0/10]
+*** [X] Validate FEM results for LIMod FHFB \( eta = 1.0\)[1/10]
 SCHEDULED: <2022-11-14 Mon>
-    - [ ] organize files
+    - [X] organize files
     - [ ] add conditions that allow for the additional analysis in the calibration factor MATLAB script
     - [ ] evaluate the calibration factor
     - [ ] evaluate thresh hold for long and short piles
@@ -24,14 +24,14 @@ SCHEDULED: <2022-11-14 Mon>
 ** Writing
 *** DONE Add BEM notes to literature review
 SCHEDULED: <2022-11-09 Wed>
-*** DONE Revise the literature review section of synthesis and Worku's work [0/1]
+*** DONE Revise the literature review section of synthesis and Worku's work [5/5]
 SCHEDULED: <2022-11-10 Thu 08:00-10:00>
     - [X] review other synthesis works
     - [X] add notes on how the 2010 model was developed
     - [X] add notes on why it is considered general
     - [X] review the 2013 and 2014 models
     - [X] why is the 2014 model better
-*** TODO Add radius to Boundsens plot
+*** DONE Add radius to Boundsens plot
 SCHEDULED: <2022-11-14 Mon>
     - add \(r = 0.25\) for \(\frac{L}{r} = 80\) and
     - add \(r = 0.50\) for \(\frac{L}{r} = 40\)
