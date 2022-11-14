@@ -59,4 +59,3 @@ range of lateral boundary considered are
 |          4 | \(0.25L\)                  |
 |          5 | min 30.0m (used in thesis) |
 
-an example to show abel.
